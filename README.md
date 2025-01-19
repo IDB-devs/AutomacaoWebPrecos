@@ -21,7 +21,7 @@
 
 ### O que temos disponível?
 
-- Planilha de Produtos, com os nomes dos produtos, o preço máximo, o preço mínimo (para evitar produtos "errados" ou "baratos de mais para ser verdade" e os termos que vamos querer evitar nas nossas buscas.
+- Planilha de Produtos, com os nomes dos produtos, o preço máximo, o preço mínimo (para evitar produtos "errados" ou "baratos de mais para ser verdade") e os termos que vamos querer evitar nas nossas buscas.
 
 ### O que devemos fazer:
 
@@ -31,4 +31,6 @@
 
 ### Arquivos Explicação:
 
-- 
+- buscas.xlsx -> tabela onde devem ser inseridos os parâmetros da busca a ser realizada, como preço mínimo e máximo.
+- Pesquisa de Preços.ipynb -> código python para automação de buscas nos sites do google shopping, buscapé e finalizando enviando um email para quem interessar o dataframe de produtos encontrados.
+- buscas.xlsx -> dataframe final dos produtos encontrados, com os parâmetros escolhidos.
